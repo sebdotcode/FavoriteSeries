@@ -193,7 +193,6 @@ ul.sidenav a:hover {
   padding-bottom: 4%;
 }
 
-
 .img {
   display: block;
   max-width: 400px;
@@ -201,9 +200,18 @@ ul.sidenav a:hover {
   margin: 40px auto;
 }
 
-#lightsaber:hover {
-    opacity: 1.0;
-    transition: 0.3s;
+#lightsaber {
+    animation: fade 4s infinite;
+}
+
+@keyframes fade {
+    0%, 100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
 }
 
 form {
