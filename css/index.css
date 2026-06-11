@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -248,6 +249,7 @@ footer h3 {
   text-transform: uppercase;
   color: #fecf9f;
   letter-spacing: 0.5px;
+  margin-top: 10px
 }
 
 footer h3:hover {
