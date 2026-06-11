@@ -59,19 +59,19 @@ input.menu {
 }
 
 .navlinks a {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
   color: #fecf9f;
   text-decoration: none;
 }
 
 .navlinks a:hover {
-  color:#00fcfc; 
+  color:#ffffff; 
   font-weight: bolder;
 }
 
 .navname:hover {
-  color:#00fcfc;
+  color:#ffffff;
   font-weight: bolder;
 }
 
