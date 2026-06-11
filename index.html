@@ -4,40 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
-    <div id="container">
-            
-    <nav id="nav">
-        <header id="header">Menu</header>
-        <div id="sidenav">
-            <ul>
-            <li><a href="html/starwars.html">Star Wars</a></li>
-            <a id="sw link"><a href="html/lotr.html">LOTR</a></a>
-            <a id="sw link"><a href="html/harrypotter.html">Harry Potter</a></a>
-            <a id="sw link"><a href="">Dune</a></a>
-            <a id="sw link"><a href="">ASOIAF</a></a>
-            </ul>
-        </div>
+    <input type="checkbox" id="menubutton" class="menu"/>
+<nav id="topnav">
+    <a href="index.html" class="nav-name">Home</a>
+    <div class="nav-right">
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#work">Contact</a></li>
+      </ul>
 
-    </nav>
+    <label for="menubutton" class="menu" aria-label="Open menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </label>
+    </div>
+  </nav>
     
-    <div id="top banner">
-        <h1>My Favorite Sci-Fi and Fantasy Series</h1>
-        <img id="home" src="img/home_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.png" alt="Home Button">
-        <button class="btn"><i><a id="home link"><a href="html/homepage.html"></a></a></i> Home</button>
-        <button class="btn"><i></i> Menu</button>
-    </div>
-    <div>
-            <img id="img" src="img/Lightsaber,_silver_hilt,_blue_blade.png" alt="Blue Lightsaber">
-        </div>
-    <footer>
-        <h3>All images used under Fair Use</h3>
-        <h3>About</h3>
-        <h3>Contact</h3>
-    </footer>
+<aside class="sidenav">
+    <div class="menuheader">
+      <a href="" class="menu">Menu</a>
+
+      <label for="menubutton" class="menuclose" aria-label="Close menu">x</label>
     </div>
 
+    <label for="menubutton" class="menu"></label>
+
+<nav>
+    <ul class="sidenav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="html/starwars.html">Star Wars</a></li>
+        <li><a href="html/lotr.html">LOTR</a></li>
+        <li><a href="html/harrypotter.html">Harry Potter</a></li>
+        <li><a href="html/dune.html">Dune</a></li>
+    </ul>
+</nav>
+</aside>
+
+ <section id="hero">
+    <div class="container">
+      <p class="temp"></p>
+      <h1 class="main title">
+        <span>My Favorite Sci-Fi and Fantasy</span>
+        <span>Series</span>
+      </h1>
+
+      <img class="img" id="lightsaber" src="img/Lightsaber,_silver_hilt,_blue_blade.png" alt="Blue Lightsaber">
+
+      <p class="quote">
+        "Fiction is the lie through which we tell the truth." — Albert Camus
+      </p>
+    </div>
+  </section>
+    <footer>
+    <h3>About</h3>
+    <h3>Contact</h3>
+    <h3>All Images Used Under Fair Use</h3>
+  </footer>
 </body>
 </html>

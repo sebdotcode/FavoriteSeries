@@ -1,20 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Harry Potter</title>
-    <link rel="stylesheet" href="../css/harrypotter.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Harry Potter</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <div>
-    <h1>Harry Potter</h1>
+<input type="checkbox" id="menubutton" class="menu"/>
+<nav id="topnav">
+<a href="../index.html" class="nav-name">Favorite Series</a>
+<div class="nav-right">
+<ul class="nav-links">
+<li><a href="../index.html#about">About</a></li>
+<li><a href="../index.html#work">Contact</a></li>
+</ul>
+<label for="menubutton" class="menu" aria-label="Open menu">
+<span></span>
+<span></span>
+<span></span>
+</label>
+</div>
+</nav>
+<aside class="sidenav">
+<div class="menuheader">
+<a href="../index.html" class="menu">Menu</a>
+<label for="menubutton" class="menuclose" aria-label="Close menu">x</label>
+</div>
+<label for="menubutton" class="menu"></label>
+<nav>
+<ul class="sidenav">
+<li><a href="../index.html">Home</a></li>
+<li><a href="starwars.html">Star Wars</a></li>
+<li><a href="lotr.html">LOTR</a></li>
+<li><a href="harrypotter.html">Harry Potter</a></li>
+<li><a href="dune.html">Dune</a></li>
+</ul>
+</nav>
+</aside>
 
-    <div>
-        <img class="img" src="../img/Screen Shot 2026-05-29 at 9.38.59 PM.png" alt="Dobby the elf">
-    </div>
-    <p>I first read the Harry Potter series when I was in 2nd grade and ever since then I've loved everything Harry Potter. I'm also a huge fan of the movies although for me personally I think the books are superior.</p>
-    </div>
+<div class="container page">
+
+  <h1 class="page-title">Harry Potter</h1>
+
+  <img class="img" src="../img/hp3.webp" alt="Dobby the elf">
+
+  <section class="page-content">
+    <article>
+      <p>I first read the Harry Potter series when I was in 2nd grade and ever since then I've loved everything Harry Potter. I'm also a huge fan of the movies although for me personally I think the books are superior.</p>
+    </article>
+  </section>
+
+</div>
 
 </body>
 </html>

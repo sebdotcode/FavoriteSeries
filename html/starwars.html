@@ -1,29 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Star Wars</title>
-    <link rel="stylesheet" href="../css/starwars.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Star Wars</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
-    <button class="btn"><i><a id="home link"><a href="../html/homepage.html"></a></a></i> Home</button>
-    <div>
-        <h1>Star Wars</h1>
-    
+<input type="checkbox" id="menubutton" class="menu"/>
+<nav id="topnav">
+<a href="../index.html" class="nav-name">Home</a>
+<div class="nav-right">
+<ul class="nav-links">
+<li><a href="../index.html#about">About</a></li>
+<li><a href="../index.html#work">Contact</a></li>
+</ul>
+<label for="menubutton" class="menu" aria-label="Open menu">
+<span></span>
+<span></span>
+<span></span>
+</label>
+</div>
+</nav>
+<aside class="sidenav">
+<div class="menuheader">
+<a href="../index.html" class="menu">Menu</a>
+<label for="menubutton" class="menuclose" aria-label="Close menu">x</label>
+</div>
+<label for="menubutton" class="menu"></label>
+<nav>
+<ul class="sidenav">
+<li><a href="../index.html">Home</a></li>
+<li><a href="starwars.html">Star Wars</a></li>
+<li><a href="lotr.html">LOTR</a></li>
+<li><a href="harrypotter.html">Harry Potter</a></li>
+<li><a href="dune.html">Dune</a></li>
+</ul>
+</nav>
+</aside>
 
-            <img class="img" src="../img/Screen Shot 2026-05-29 at 2.37.57 AM.png" alt="Star Wars: Episode V - The Empire Strikes Back (1980)">
-    
-    <section>
-        <article>
-            <header>George Lucas</header>
-            <p>George Lucas created one of the most beloved works of fiction ever made. Multiple generations of human beings are fans of Star Wars and it defined a new era of science fiction. My personal favorite would have to be The Original Trilogy although I also love the Prequels. I believe the Prequel's flaws are part of their charm.</p>
-        </article>
-        <article class="secondArticle">
-            <header>Disney</header>
-            <p>After aquiring the Star Wars IP for $ billion dollars, Disney set out to continue the Star Wars universe. If Disney did it right, that's a completely different debate but more Star Wars is always a good thing.</p>
-        </article>
-    </section>
-    </div>
+<div class="container page">
+
+  <h1 class="page-title">Star Wars</h1>
+
+  <img class="img" src="../img/sw2.webp" alt="Star Wars: Episode V - The Empire Strikes Back (1980)">
+
+  <section class="page-content">
+    <article>
+      <header>George Lucas</header>
+      <p>George Lucas created one of the most beloved works of fiction ever made. Multiple generations of human beings are fans of Star Wars and it defined a new era of science fiction. My personal favorite would have to be The Original Trilogy although I also love the Prequels. I believe the Prequel's flaws are part of their charm.</p>
+    </article>
+
+    <article class="secondArticle">
+      <header>Disney</header>
+      <p>After aquiring the Star Wars IP for $4.05 billion dollars, Disney set out to continue the Star Wars universe. If Disney did it right, that's a completely different debate but more Star Wars is always a good thing.</p>
+    </article>
+  </section>
+
+</div>
+
 </body>
 </html>
