@@ -4,21 +4,17 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Star Wars</title>
-<link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@300;400;500&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="../css/index.css">
 </head>
 <body>
 <input type="checkbox" id="menubutton" class="menu"/>
 <nav id="topnav">
-<a href="../index.html" class="nav-name">Home</a>
-<div class="nav-right">
-<ul class="nav-links">
-<li><a href="../index.html#about">About</a></li>
+<a href="../index.html" class="navname">Home</a>
+<div class="navright">
+<ul class="navlinks">
 <li><a href="../index.html#work">Contact</a></li>
 </ul>
-<label for="menubutton" class="menu" aria-label="Open menu">
+<label for="menubutton" class="menu">
 <span></span>
 <span></span>
 <span></span>
@@ -28,7 +24,7 @@
 <aside class="sidenav">
 <div class="menuheader">
 <a href="../index.html" class="menu">Menu</a>
-<label for="menubutton" class="menuclose" aria-label="Close menu">x</label>
+<label for="menubutton" class="menuclose">x</label>
 </div>
 <label for="menubutton" class="menu"></label>
 <nav>
@@ -44,18 +40,20 @@
 
 <div class="container page">
 
-  <h1 class="page-title">Star Wars</h1>
+  <h1 class="pagetitle">Star Wars</h1>
 
-  <img class="img" src="../img/sw2.webp" alt="Star Wars: Episode V - The Empire Strikes Back (1980)">
+  <img class="img" src="../img/sw2.webp" alt="C3PO and R2D2">
+   <img class="img" src="../img/sw1.webp" alt="Qui-Gon Jin and Obi-Wan Kenobi">
+    <img class="img" src="../img/sw3.webp" alt="Star Wars: Episode V - The Empire Strikes Back (1980)">
 
-  <section class="page-content">
+  <section class="pagecontent">
     <article>
       <header>George Lucas</header>
       <p>George Lucas created one of the most beloved works of fiction ever made. Multiple generations of human beings are fans of Star Wars and it defined a new era of science fiction. My personal favorite would have to be The Original Trilogy although I also love the Prequels. I believe the Prequel's flaws are part of their charm.</p>
     </article>
 
     <article class="secondArticle">
-      <header>Disney</header>
+      <header id="disney">Disney</header>
       <p>After aquiring the Star Wars IP for $4.05 billion dollars, Disney set out to continue the Star Wars universe. If Disney did it right, that's a completely different debate but more Star Wars is always a good thing.</p>
     </article>
   </section>

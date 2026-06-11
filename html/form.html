@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact</title>
+<link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+<nav id="topnav">
+<h1>Contact the developer of this site!</h1>
+<a href="../index.html" class="navname">Home</a>
+</nav>
+
+    <form>
+        <div>
+            <label for="fname">Full Name:</label>
+            <input type="text" id="fname" name="fname" placeholder="Type name here" required>
+        </div>
+        <br>
+        <div>
+            <label for="bdate">Birthdate:</label>
+            <input type="date" id="bdate" name="bdate">
+        </div>
+        <br>
+          <div>
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="000-000-0000">
+        </div>
+        <br>
+         <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="yoda@jedi.com" required>
+        </div>
+        <br>
+        <div>
+            <label>Select the Best Series (choose one):</label>
+            <br>
+            <input type="radio" id="starwars" name="Series" value="Star Wars">
+            <label for="starwars">Star Wars</label>
+            <br>
+            <input type="radio" id="lotr" name="Series" value="lotr">
+            <label for="lotr">The Lord of the Rings</label>
+            <br>
+            <input type="radio" id="hp" name="Series" value="hp">
+            <label for="hp">Harry Potter</label>
+            <br>
+            <input type="radio" id="dune" name="Series" value="Dune">
+            <label for="dune">Dune</label>
+        </div>
+        <br>
+        <div>
+            <label for="reason">What can I help you with?</label>
+            <select id="reason" name="reason">
+                <option value="Question">Question</option>
+                <option value="Encouragement">Encouragement</option>
+                <option value="Venting">Venting</option>
+                <option value="Other">Other</option>
+            </select>
+        </div>
+         <br>
+         <div>
+            <label>Feel free to leave a message below:</label>
+            <br>
+            <textarea placeholder="Message here..." name="message" rows="2" cols="30"></textarea>
+         </div>
+        <br>
+        <div class="buttons">
+            <input type="reset" id="reset">
+            <input type="submit" id="submit">
+        </div>
+    </form>
+    </body>
+</html>
