@@ -271,6 +271,7 @@ footer h3:hover {
     padding-left: 20px;
     padding-right: 20px;
   }
+ 
 
   .quote {
     padding-left: 20px;
@@ -281,13 +282,17 @@ footer h3:hover {
   }
   form {
     padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 190px;
+    padding-right: 40px;
+    margin-top: 200px;
+    justify-content: center;
   }
   #ring {
     display: none;
   }
 
+  #topnavh1 {
+    padding-left: 5%;
+  }
   footer {
     flex-direction: column;
     text-align: center;
@@ -341,6 +346,18 @@ footer h3:hover {
     font-size: 28px;
   }
 
+  @media (max-width: 600px) {
+  form {
+    margin-top: 20px;
+  }
+  #ring {
+    display: none;
+  }
+  #topnavh1 {
+    margin-top: 40px;
+  }
+}
+
   @media (max-width: 500px) {
 
     body {
@@ -352,8 +369,9 @@ footer h3:hover {
     }
 
     form {
-      margin: 5%;
+      margin: 1%;
       margin-top: 110px;
+      justify-content: center;
     }
 
     #ring {
