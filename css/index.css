@@ -36,7 +36,6 @@ input.menu {
   align-items: center;
   padding: 20px 5%;
   background-color: #015ca1;
-  border-bottom: 1px solid #02034f;
 }
 
 .navname {
@@ -104,6 +103,7 @@ aside.sidenav {
   z-index: 1000;
   background-color: #000000;
   padding: 30px;
+  border: 2px solid white;
   transition: left 0.3s ease;
 }
 
@@ -137,7 +137,7 @@ ul.sidenav {
 }
 
 ul.sidenav li {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgb(189, 187, 187);
 }
 
 ul.sidenav a {
@@ -184,11 +184,11 @@ ul.sidenav a:hover {
 }
 
 .quote {
-  margin-top: 25px;
   font-size: 30px;
   font-family: "Metamorphous";
   color: #0cd678;
-  max-width: 500px;
+  max-width: 420px;
+  margin-top: 25px;
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 4%;
@@ -202,7 +202,7 @@ ul.sidenav a:hover {
 }
 
 #lightsaber {
-    animation: fade 4s infinite;
+    animation: fade 3s infinite;
 }
 
 @keyframes fade {
@@ -215,14 +215,19 @@ ul.sidenav a:hover {
     }
 }
 
+#ring {
+    animation: fade 6s infinite;
+}
 form {
     max-width: 500px;
+    float: left;
     margin:auto;
+    margin-left: 200px;
     padding: 20px;
-    background-color: #0a162c;
-    border: 1px solid #ffffff;
+    padding-top: 80px;
+    background-color: #254237;
     border-radius: 5px;
-    margin-top: 100px;
+    margin-top: 120px;
     margin-bottom: 20px;
 }
 .buttons {
@@ -240,6 +245,12 @@ form {
     cursor: pointer;
 }
 
+#ring {
+    width: 400px;
+    position: absolute;
+    left: 830px;
+    top: 280px;
+}
 
 footer {
   background-color: #01101e;
@@ -362,5 +373,4 @@ footer h3:hover {
     h1 {
       margin: 30px;
     }
-
-}
+  }
