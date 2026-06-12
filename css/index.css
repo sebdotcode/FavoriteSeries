@@ -2,21 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Metamorphous&display=swap');
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
   font-family: 'Bitcount Single', sans-serif;
   color: #ffffff;
   background-color: #000000;
   line-height: 1.5;
-}
-
-html {
-  scroll-behavior:smooth;
 }
 
 input.menu {
@@ -98,7 +88,7 @@ aside.sidenav {
   position: fixed;
   top: 0;
   left: -320px;
-  width: 300px;
+  width: 250px;
   height: 100%;
   z-index: 1000;
   background-color: #000000;
@@ -136,9 +126,6 @@ ul.sidenav {
   list-style: none;
 }
 
-ul.sidenav li {
-  border-bottom: 1px solid rgb(189, 187, 187);
-}
 
 ul.sidenav a {
   display: block;
@@ -151,7 +138,7 @@ ul.sidenav a {
 
 ul.sidenav a:hover {
   color: #860dc7;
-  font-size: 28px;
+  font-size: 26px;
   transition: 0.3s;
 }
 
@@ -199,25 +186,9 @@ ul.sidenav a:hover {
   max-width: 400px;
   width: 80%;
   margin: 40px auto;
+  border-radius: 5%;
 }
 
-#lightsaber {
-    animation: fade 3s infinite;
-}
-
-@keyframes fade {
-    0%, 100% {
-        opacity: 1;
-    }
-
-    50% {
-        opacity: 0.4;
-    }
-}
-
-#ring {
-    animation: fade 6s infinite;
-}
 form {
     max-width: 500px;
     float: left;
